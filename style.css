@@ -16,6 +16,6 @@ section.home {
   background-size: 100%;
 }
 section > nav {
+  text-decoration: none;
   display: flex;
-  content: ;
 }

@@ -7,23 +7,49 @@
 }
 
 section.home {
-  width: 99vw;
+  width: 100vw;
   height: 100vh;
   background-image: url(imagens/wallpaper01.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  padding-top: 10px;
 }
 
 section > nav {
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 30px;
   text-align: right;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: right;
 }
 
 section li {
+  padding: 10px;
   display: inline-block;
+  
 }
 
 section a {
   text-decoration: none;
+}
+
+section.sobre {
+  display: block;
+  width: 100vw;
+  max-height: 50px;
+}
+
+section img {
+  display: flex;
+  justify-content: left;
+  max-height: 250px;
+  max-width: 250px;
+  padding: 20px;
+  border-radius: 100%;
+  text-align: justify;
+  justify-content: center;
 }

@@ -7,7 +7,7 @@
 }
 
 section.home {
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   background-image: url(imagens/wallpaper01.jpg);
   background-position: center center;
@@ -15,7 +15,15 @@ section.home {
   background-attachment: fixed;
   background-size: 100%;
 }
+
 section > nav {
+  text-align: right;
+}
+
+section li {
+  display: inline-block;
+}
+
+section a {
   text-decoration: none;
-  display: flex;
 }
